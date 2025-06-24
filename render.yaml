@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: crafted-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn craftedcms.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: craftedcms.settings
+      - key: SECRET_KEY
+        value: your-strong-secret-key
+      - key: ALLOWED_HOSTS
+        value: crafted-backend.onrender.com
