@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-0gi-j$aa5f)x1#c3r@6*a(fb8-$a(82gsm(%pdg5y66%iszkv1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['crafted-backend.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['crafted-backend-p7es.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
